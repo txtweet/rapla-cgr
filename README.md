@@ -3,7 +3,7 @@ Hebergement de rapla dans Docker
 
 ## Image Tomcat/Rapla
 
-`rapla.sh buil` 
+`rapla.sh build` 
 Permet de build l'image Docker de Tomcat contenant le war de Rapla ainsi que les crédentials pour la DB
 
 `rapla.sh run` 
