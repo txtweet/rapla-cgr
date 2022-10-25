@@ -9,7 +9,7 @@
     -->
     <Resource name="jdbc/rapladb" 
 auth="Container" type="javax.sql.DataSource"
-              username="rapla_db_user" password="bR5be763wU" url="jdbc:mysql://rapla-cgr_db_1/rapla_db"
+              username="rapla_db_user" password="bR5be763wU" url="jdbc:mysql://db/rapla_db"
               driverClassName="com.mysql.jdbc.Driver"
               maxActive="20" maxIdle="10"/>
    
