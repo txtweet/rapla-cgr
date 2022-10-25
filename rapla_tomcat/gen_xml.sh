@@ -13,7 +13,7 @@ cat > rapla.xml <<EOL
     -->
     <Resource name="jdbc/rapladb" 
 auth="Container" type="javax.sql.DataSource"
-              username="${USER_MYSQL}" password="${PASS_MYSQL}" url="jdbc:mysql://rapla-cgr_db_1/rapla_db"
+              username="${MYSQL_USER}" password="${MYSQL_PASSWORD}" url="jdbc:mysql://${MYSQL_HOST}/${MYSQL_DATABASE}"
               driverClassName="com.mysql.jdbc.Driver"
               maxActive="20" maxIdle="10"/>
    

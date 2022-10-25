@@ -15,6 +15,11 @@ services:
   web:
     build: rapla_tomcat
     restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: rapla_db
+      MYSQL_USER: rapla_db_user
+      MYSQL_PASSWORD: bR5be763wU
+      MYSQL_HOST: db
     expose:
       - '8080'
     depends_on:
