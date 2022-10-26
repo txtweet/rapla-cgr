@@ -19,3 +19,4 @@ Tuto fonctionnel dispo ici : https://askubuntu.com/a/1139754
 
 ### Windows
 Il suffit d'installer la version IBM de JAVA 8 (runtime Semeru)
+https://developer.ibm.com/languages/java/semeru-runtimes/downloads/ et selectionner Java 8
